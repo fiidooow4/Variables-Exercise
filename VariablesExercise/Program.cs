@@ -1,10 +1,28 @@
 ﻿namespace VariablesExercise
 {
-    public class Program
+    using System;
+
+    class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            string myString = "Hello";
+            int myInt = 42;
+            char myChar = 'A';
+            bool myBool = true;
+            double myDouble = 3.14;
+            decimal myDecimal = 123.456m;
+
+          
+            Console.WriteLine($"My string: {myString}");
+            Console.WriteLine($"My int: {myInt}");
+            Console.WriteLine($"My char: {myChar}");
+            Console.WriteLine($"My bool: {myBool}");
+            Console.WriteLine($"My double: {myDouble}");
+            Console.WriteLine($"My decimal: {myDecimal}");
+
+            
         }
     }
+
 }
